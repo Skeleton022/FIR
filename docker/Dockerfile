@@ -23,6 +23,7 @@ RUN apk add --update \
     libxml2-dev \
     libxslt \
     libxslt-dev \
+    nano \
     postgresql-dev \
     && rm -rf /var/cache/apk/*
 
