@@ -50,4 +50,4 @@ RUN ./manage.py migrate && \
 
 EXPOSE 8000
 ENTRYPOINT ["/app/FIR/manage.py"]
-CMD ["runserver", "192.168.1.11:8000"]
+CMD ["runserver", "0.0.0.0:8000"]
