@@ -31,7 +31,7 @@ RUN addgroup fir && \
 
 WORKDIR /app
 
-RUN git clone https://github.com/certsocietegenerale/FIR.git && \
+RUN git clone https://github.com/Skeleton022/FIR.git && \
     chown -R fir:fir /app/FIR && \
     cd FIR && \
     pip install -r requirements.txt && \
@@ -49,4 +49,4 @@ RUN ./manage.py migrate && \
 
 EXPOSE 8000
 ENTRYPOINT ["/app/FIR/manage.py"]
-CMD ["runserver", "0.0.0.0:8000"]
+CMD ["runserver", "192.168.1.11:8000"]
