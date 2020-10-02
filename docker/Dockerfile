@@ -32,7 +32,7 @@ RUN addgroup fir && \
 
 WORKDIR /app
 
-RUN git clone https://github.com/Skeleton022/FIR.git && \
+RUN git clone https://github.com/Skeleton022/FIR && \
     chown -R fir:fir /app/FIR && \
     cd FIR && \
     pip install -r requirements.txt && \
