@@ -185,7 +185,7 @@ INCIDENT_VIEWER_CAN_COMMENT = True
 # Escape HTML when displaying markdown
 MARKDOWN_SAFE_MODE = True
 
-ALLOWED_HOSTS = ["127.0.0.1", "0.0.0.0", "192.168.1.12"]
+ALLOWED_HOSTS = ["127.0.0.1", "0.0.0.0", "192.168.1.12", "192.168.1.11"]
 
 
 # Allowed HTML tags in Markdown output (requires MARKDOWN_SAFE_MODE to be True)
